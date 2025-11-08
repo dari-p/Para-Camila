@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestra historia </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts-bg"></div>
+
+  <header>
+    <h1>Cómo empezó todo</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="historia.html">Cómo empezó</a>
+      <a href="juntadas.html">Nuestras juntadas</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="historia">
+      <p>Aunque me parecieras linda hace MUCHO tiempo, todo empezó en la casa de feli. <br>
+         En el momento en el que apoyaste tu cabeza en mi hombro y lo sacaste a Valentin, <br>
+         me pude dar cuenta de que había reprimido una banda mis sentimientos totalmente al pedo.
+      </p>
+      <div class="fotosuelta">
+        <img src="img\foto4.jpg">
+      </div>
+      <br>
+      <p>Mi amor por vos existió desde siempre, pero tardé tiempo en ir demostrandolo poco a poco. 
+         Y perdón que haya sido así, no sabía expresar mis emociones y gracias por tenerme tanta paciencia. 💕
+         </p>
+   <section class="galeria-rotante">
+    <button class="flecha izquierda" onclick="cambiarFoto(-1)">&#10094;</button>
+
+    <div class="contenedor-fotos">
+      <img id="foto-izq" class="foto-lateral" src="img/foto1.jpg" alt="Recuerdo izquierdo">
+      <img id="foto-central" class="foto-central" src="img/foto2.jpg" alt="Recuerdo central">
+      <img id="foto-der" class="foto-lateral" src="img/foto3.jpg" alt="Recuerdo derecho">
+    </div>
+
+    <button class="flecha derecha" onclick="cambiarFoto(1)">&#10095;</button>
+  </section>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>
